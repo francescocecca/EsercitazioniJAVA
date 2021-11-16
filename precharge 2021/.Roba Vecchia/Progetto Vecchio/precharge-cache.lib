@@ -1,0 +1,215 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_D
+#
+DEF Device_D D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_D" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# precharge-rescue_+5V-power
+#
+DEF precharge-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "precharge-rescue_+5V-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# precharge-rescue_+VDC-power
+#
+DEF precharge-rescue_+VDC-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -100 50 H I C CNN
+F1 "precharge-rescue_+VDC-power" 0 250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 125 75 0 1 10 N
+P 2 0 1 20 -45 125 45 125 N
+P 2 0 1 0 0 0 0 50 N
+P 2 0 1 20 0 80 0 170 N
+X +VDC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# precharge-rescue_282843-2-SamacSys_Parts
+#
+DEF precharge-rescue_282843-2-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "precharge-rescue_282843-2-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "SHDR2W130P0X1016_1X2_1524X900X1550P" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=282843&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=282843-2" 650 0 50 H I L CNN
+F4 "Fixed Terminal Blocks PCB MOUNT 90 2P" 650 -100 50 H I L CNN "Description"
+F5 "15.5" 650 -200 50 H I L CNN "Height"
+F6 "571-282843-2" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/282843-2?qs=gdajpSf3VLcCks%2FVL51V3Q%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "282843-2" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# precharge-rescue_C-Device
+#
+DEF precharge-rescue_C-Device C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "precharge-rescue_C-Device" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# precharge-rescue_GND-power
+#
+DEF precharge-rescue_GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "precharge-rescue_GND-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# precharge-rescue_NE555PE4-SamacSys_Parts
+#
+DEF precharge-rescue_NE555PE4-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "precharge-rescue_NE555PE4-SamacSys_Parts" 1050 200 50 H V L CNN
+F2 "DIP794W53P254L959H508Q8N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 0 50 H I L CNN
+F4 "xx555 Precision Timers" 1050 -100 50 H I L CNN "Description"
+F5 "5.08" 1050 -200 50 H I L CNN "Height"
+F6 "595-NE555PE4" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/NE555PE4?qs=rLYyFdxB%2FmpV6UJXAtWXuA%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "NE555PE4" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+X GND 1 0 0 200 R 50 50 0 0 P
+X TRIG 2 0 -100 200 R 50 50 0 0 P
+X OUT 3 0 -200 200 R 50 50 0 0 P
+X RESET 4 0 -300 200 R 50 50 0 0 P
+X CONT 5 1200 -300 200 L 50 50 0 0 P
+X THRES 6 1200 -200 200 L 50 50 0 0 P
+X DISCH 7 1200 -100 200 L 50 50 0 0 P
+X VCC 8 1200 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# precharge-rescue_R-Device
+#
+DEF precharge-rescue_R-Device R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "precharge-rescue_R-Device" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# precharge-rescue_RFN10TF6SFHC9-SamacSys_Parts
+#
+DEF precharge-rescue_RFN10TF6SFHC9-SamacSys_Parts D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "precharge-rescue_RFN10TF6SFHC9-SamacSys_Parts" 450 100 50 H V L CNN
+F2 "TO508P480X1010X1840-2P" 450 0 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/RFN10TF6SFHC9.pdf" 450 -100 50 H I L CNN
+F4 "Diodes - General Purpose, Power, Switching 600V VR 10A IO ITO-220AC; TO-220NFM" 450 -200 50 H I L CNN "Description"
+F5 "4.8" 450 -300 50 H I L CNN "Height"
+F6 "755-RFN10TF6SFHC9" 450 -400 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RFN10TF6SFHC9?qs=HXFqYaX1Q2xxBDrwY0GTQA%3D%3D" 450 -500 50 H I L CNN "Mouser Price/Stock"
+F8 "ROHM Semiconductor" 450 -600 50 H I L CNN "Manufacturer_Name"
+F9 "RFN10TF6SFHC9" 450 -700 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 100 200 -100 N
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# precharge-rescue_TB002-500-03BE-SamacSys_Parts
+#
+DEF precharge-rescue_TB002-500-03BE-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "precharge-rescue_TB002-500-03BE-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "SHDR3W100P0X500_1X3_1500X760X1000P" 650 100 50 H I L CNN
+F3 "https://www.cuidevices.com/product/resource/tb002-500.pdf" 650 0 50 H I L CNN
+F4 "Fixed Terminal Blocks screw type, 5.00 , horizontal, 3 poles, CUI Blue, slotted screw, PCB mount" 650 -100 50 H I L CNN "Description"
+F5 "10" 650 -200 50 H I L CNN "Height"
+F6 "490-TB002-500-03BE" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-03BE?qs=vLWxofP3U2xKqUO2wcZ40g%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "CUI Devices" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TB002-500-03BE" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# precharge-rescue_TLP3555A_TP1,F-SamacSys_Parts
+#
+DEF precharge-rescue_TLP3555A_TP1,F-SamacSys_Parts K 0 30 Y Y 1 F N
+F0 "K" 1250 300 50 H V L CNN
+F1 "precharge-rescue_TLP3555A_TP1,F-SamacSys_Parts" 1250 200 50 H V L CNN
+F2 "DIP762W60P254L458H485Q4N" 1250 100 50 H I L CNN
+F3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=61844&prodName=TLP3555A" 1250 0 50 H I L CNN
+F4 "MOSFET Output Optocouplers Photorelay 3A 60V 2500Vrms 250pF 3mA" 1250 -100 50 H I L CNN "Description"
+F5 "4.85" 1250 -200 50 H I L CNN "Height"
+F6 "757-TLP3555A(TP1,F" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Toshiba/TLP3555ATP1F?qs=%252BEew9%252B0nqrDD2Q6lmKWnyg%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Toshiba" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TLP3555A(TP1,F" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1200 100 1200 -200 200 -200 200 100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 0 -100 200 R 50 50 0 0 P
+X ~ 3 1400 -100 200 L 50 50 0 0 P
+X ~ 4 1400 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,221 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 282843-2_282843-2
+#
+DEF 282843-2_282843-2 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "282843-2_282843-2" 650 200 50 H V L CNN
+F2 "SHDR2W130P0X1016_1X2_1524X900X1550P" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=282843&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=282843-2" 650 0 50 H I L CNN
+F4 "Fixed Terminal Blocks PCB MOUNT 90 2P" 650 -100 50 H I L CNN "Description"
+F5 "15.5" 650 -200 50 H I L CNN "Height"
+F6 "571-282843-2" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/282843-2?qs=gdajpSf3VLcCks%2FVL51V3Q%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "282843-2" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Comparator_LM393
+#
+DEF Comparator_LM393 U 0 5 Y Y 3 L N
+F0 "U" 150 150 50 H V C CNN
+F1 "Comparator_LM393" 250 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS LM393
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+ DIP*W7.62mm*
+ SOP*5.28x5.23mm*P1.27mm*
+ VSSOP*3.0x3.0mm*P0.65mm*
+ TSSOP*4.4x3mm*P0.65mm*
+$ENDFPLIST
+DRAW
+P 4 1 1 10 -200 200 200 0 -200 -200 -200 200 f
+P 7 1 1 5 130 -20 110 -20 130 0 110 20 90 0 110 -20 90 -20 N
+P 4 2 1 10 -200 200 200 0 -200 -200 -200 200 f
+P 7 2 1 5 130 -20 110 -20 130 0 110 20 90 0 110 -20 90 -20 N
+X ~ 1 300 0 100 L 50 50 1 1 C
+X - 2 -300 -100 100 R 50 50 1 1 I
+X + 3 -300 100 100 R 50 50 1 1 I
+X + 5 -300 100 100 R 50 50 2 1 I
+X _ 6 -300 -100 100 R 50 50 2 1 I
+X ~ 7 300 0 100 L 50 50 2 1 C
+X V- 4 -100 -300 150 U 50 50 3 1 W
+X V+ 8 -100 300 150 D 50 50 3 1 W
+ENDDRAW
+ENDDEF
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_D
+#
+DEF Device_D D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_D" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_D_Zener
+#
+DEF Device_D_Zener D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_D_Zener" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 10 -50 -50 -50 50 -30 50 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TB002-500-03BE_TB002-500-03BE
+#
+DEF TB002-500-03BE_TB002-500-03BE J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "TB002-500-03BE_TB002-500-03BE" 650 200 50 H V L CNN
+F2 "SHDR3W100P0X500_1X3_1500X760X1000P" 650 100 50 H I L CNN
+F3 "https://www.cuidevices.com/product/resource/tb002-500.pdf" 650 0 50 H I L CNN
+F4 "Fixed Terminal Blocks screw type, 5.00 , horizontal, 3 poles, CUI Blue, slotted screw, PCB mount" 650 -100 50 H I L CNN "Description"
+F5 "10" 650 -200 50 H I L CNN "Height"
+F6 "490-TB002-500-03BE" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-03BE/?qs=vLWxofP3U2xKqUO2wcZ40g%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "CUI Inc." 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TB002-500-03BE" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# TLP3555A_TP1_F_TLP3555A_TP1,F
+#
+DEF TLP3555A_TP1_F_TLP3555A_TP1,F K 0 30 Y Y 1 F N
+F0 "K" 750 300 50 H V L CNN
+F1 "TLP3555A_TP1_F_TLP3555A_TP1,F" 750 200 50 H V L CNN
+F2 "SOP254P1000X425-4N" 750 100 50 H I L CNN
+F3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=61844&prodName=TLP3555A" 750 0 50 H I L CNN
+F4 "MOSFET Output Optocouplers Photorelay 3A 60V 2500Vrms 250pF 3mA" 750 -100 50 H I L CNN "Description"
+F5 "4.25" 750 -200 50 H I L CNN "Height"
+F6 "757-TLP3555A(TP1,F" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Toshiba/TLP3555ATP1F/?qs=%252BEew9%252B0nqrDD2Q6lmKWnyg%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Toshiba" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TLP3555A(TP1,F" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+X A 1 0 0 200 R 50 50 0 0 P
+X K 2 0 -100 200 R 50 50 0 0 P
+X D_1 3 900 -100 200 L 50 50 0 0 P
+X D_2 4 900 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+VDC
+#
+DEF power_+VDC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -100 50 H I C CNN
+F1 "power_+VDC" 0 250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 125 75 0 1 10 N
+P 2 0 1 20 -45 125 45 125 N
+P 2 0 1 0 0 0 0 50 N
+P 2 0 1 20 0 80 0 170 N
+X +VDC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

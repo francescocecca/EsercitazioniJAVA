@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name precharge-rescue)(type Legacy)(uri ${KIPRJMOD}/precharge-rescue.lib)(options "")(descr ""))
+)

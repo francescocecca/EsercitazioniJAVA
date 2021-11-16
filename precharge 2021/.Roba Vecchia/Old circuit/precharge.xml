@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Lorenzo D'Agostino\Documents\GitHub\polimarcheEV_hardware\precharge\precharge new\pcb\precharge\precharge.sch</source>
+    <date>29/10/2020 09:23:14</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>precharge.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="K1">
+      <value>TLP3555A_TP1,F</value>
+      <footprint>SamacSys_Parts:DIP762W60P254L458H485Q4N</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=61844&amp;prodName=TLP3555A</datasheet>
+      <fields>
+        <field name="Description">MOSFET Output Optocouplers Photorelay 3A 60V 2500Vrms 250pF 3mA</field>
+        <field name="Height">4.85</field>
+        <field name="Manufacturer_Name">Toshiba</field>
+        <field name="Manufacturer_Part_Number">TLP3555A(TP1,F</field>
+        <field name="Mouser Part Number">757-TLP3555A(TP1,F</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Toshiba/TLP3555ATP1F?qs=%252BEew9%252B0nqrDD2Q6lmKWnyg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TLP3555A_TP1,F" description="MOSFET Output Optocouplers Photorelay 3A 60V 2500Vrms 250pF 3mA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2D41FE</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2D6C94</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2D7F05</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>TLP3555A_TP1,F</value>
+      <footprint>SamacSys_Parts:DIP762W60P254L458H485Q4N</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=61844&amp;prodName=TLP3555A</datasheet>
+      <fields>
+        <field name="Description">MOSFET Output Optocouplers Photorelay 3A 60V 2500Vrms 250pF 3mA</field>
+        <field name="Height">4.85</field>
+        <field name="Manufacturer_Name">Toshiba</field>
+        <field name="Manufacturer_Part_Number">TLP3555A(TP1,F</field>
+        <field name="Mouser Part Number">757-TLP3555A(TP1,F</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Toshiba/TLP3555ATP1F?qs=%252BEew9%252B0nqrDD2Q6lmKWnyg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TLP3555A_TP1,F" description="MOSFET Output Optocouplers Photorelay 3A 60V 2500Vrms 250pF 3mA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2E462C</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2E4632</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2E4638</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1.2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F53BF</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1.2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F5FAC</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1.2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F6886</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1.2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2F7101</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>RFN10TF6SFHC9</value>
+      <footprint>SamacSys_Parts:TO508P480X1010X1840-2P</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/RFN10TF6SFHC9.pdf</datasheet>
+      <fields>
+        <field name="Description">Diodes - General Purpose, Power, Switching 600V VR 10A IO ITO-220AC; TO-220NFM</field>
+        <field name="Height">4.8</field>
+        <field name="Manufacturer_Name">ROHM Semiconductor</field>
+        <field name="Manufacturer_Part_Number">RFN10TF6SFHC9</field>
+        <field name="Mouser Part Number">755-RFN10TF6SFHC9</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RFN10TF6SFHC9?qs=HXFqYaX1Q2xxBDrwY0GTQA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="RFN10TF6SFHC9" description="Diodes - General Purpose, Power, Switching 600V VR 10A IO ITO-220AC; TO-220NFM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2FCC3D</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>TB002-500-03BE</value>
+      <footprint>SamacSys_Parts:SHDR3W100P0X500_1X3_1500X760X1000P</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/tb002-500.pdf</datasheet>
+      <fields>
+        <field name="Description">Fixed Terminal Blocks screw type, 5.00 , horizontal, 3 poles, CUI Blue, slotted screw, PCB mount</field>
+        <field name="Height">10</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">TB002-500-03BE</field>
+        <field name="Mouser Part Number">490-TB002-500-03BE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-03BE?qs=vLWxofP3U2xKqUO2wcZ40g%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TB002-500-03BE" description="Fixed Terminal Blocks screw type, 5.00 , horizontal, 3 poles, CUI Blue, slotted screw, PCB mount"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F33743C</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>282843-2</value>
+      <footprint>SamacSys_Parts:SHDR2W130P0X1016_1X2_1524X900X1550P</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=282843&amp;DocType=Customer+Drawing&amp;DocLang=English&amp;DocFormat=pdf&amp;PartCntxt=282843-2</datasheet>
+      <fields>
+        <field name="Description">Fixed Terminal Blocks PCB MOUNT 90 2P</field>
+        <field name="Height">15.5</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">282843-2</field>
+        <field name="Mouser Part Number">571-282843-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/282843-2?qs=gdajpSf3VLcCks%2FVL51V3Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="282843-2" description="Fixed Terminal Blocks PCB MOUNT 90 2P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F342726</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>282843-2</value>
+      <footprint>SamacSys_Parts:SHDR2W130P0X1016_1X2_1524X900X1550P</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=282843&amp;DocType=Customer+Drawing&amp;DocLang=English&amp;DocFormat=pdf&amp;PartCntxt=282843-2</datasheet>
+      <fields>
+        <field name="Description">Fixed Terminal Blocks PCB MOUNT 90 2P</field>
+        <field name="Height">15.5</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">282843-2</field>
+        <field name="Mouser Part Number">571-282843-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/282843-2?qs=gdajpSf3VLcCks%2FVL51V3Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="282843-2" description="Fixed Terminal Blocks PCB MOUNT 90 2P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F344511</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>NE555PE4</value>
+      <footprint>SamacSys_Parts:DIP794W53P254L959H508Q8N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
+      <fields>
+        <field name="Description">xx555 Precision Timers</field>
+        <field name="Height">5.08</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">NE555PE4</field>
+        <field name="Mouser Part Number">595-NE555PE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/NE555PE4?qs=rLYyFdxB%2FmpV6UJXAtWXuA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="NE555PE4" description="xx555 Precision Timers"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F996938</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>16k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9B63F1</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100u</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9B813A</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>NE555PE4</value>
+      <footprint>SamacSys_Parts:DIP794W53P254L959H508Q8N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
+      <fields>
+        <field name="Description">xx555 Precision Timers</field>
+        <field name="Height">5.08</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">NE555PE4</field>
+        <field name="Mouser Part Number">595-NE555PE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/NE555PE4?qs=rLYyFdxB%2FmpV6UJXAtWXuA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="NE555PE4" description="xx555 Precision Timers"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9DF415</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100u</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9DF433</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>18k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9E3E73</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="282843-2">
+      <description>Fixed Terminal Blocks PCB MOUNT 90 2P</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=282843&amp;DocType=Customer+Drawing&amp;DocLang=English&amp;DocFormat=pdf&amp;PartCntxt=282843-2</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">282843-2</field>
+        <field name="Footprint">SHDR2W130P0X1016_1X2_1524X900X1550P</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=282843&amp;DocType=Customer+Drawing&amp;DocLang=English&amp;DocFormat=pdf&amp;PartCntxt=282843-2</field>
+        <field name="Description">Fixed Terminal Blocks PCB MOUNT 90 2P</field>
+        <field name="Height">15.5</field>
+        <field name="Mouser Part Number">571-282843-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/282843-2?qs=gdajpSf3VLcCks%2FVL51V3Q%3D%3D</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">282843-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="NE555PE4">
+      <description>xx555 Precision Timers</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ne555.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">NE555PE4</field>
+        <field name="Footprint">DIP794W53P254L959H508Q8N</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ne555.pdf</field>
+        <field name="Description">xx555 Precision Timers</field>
+        <field name="Height">5.08</field>
+        <field name="Mouser Part Number">595-NE555PE4</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/NE555PE4?qs=rLYyFdxB%2FmpV6UJXAtWXuA%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">NE555PE4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="TRIG" type="passive"/>
+        <pin num="3" name="OUT" type="passive"/>
+        <pin num="4" name="RESET" type="passive"/>
+        <pin num="5" name="CONT" type="passive"/>
+        <pin num="6" name="THRES" type="passive"/>
+        <pin num="7" name="DISCH" type="passive"/>
+        <pin num="8" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="RFN10TF6SFHC9">
+      <description>Diodes - General Purpose, Power, Switching 600V VR 10A IO ITO-220AC; TO-220NFM</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/RFN10TF6SFHC9.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">RFN10TF6SFHC9</field>
+        <field name="Footprint">TO508P480X1010X1840-2P</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/RFN10TF6SFHC9.pdf</field>
+        <field name="Description">Diodes - General Purpose, Power, Switching 600V VR 10A IO ITO-220AC; TO-220NFM</field>
+        <field name="Height">4.8</field>
+        <field name="Mouser Part Number">755-RFN10TF6SFHC9</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RFN10TF6SFHC9?qs=HXFqYaX1Q2xxBDrwY0GTQA%3D%3D</field>
+        <field name="Manufacturer_Name">ROHM Semiconductor</field>
+        <field name="Manufacturer_Part_Number">RFN10TF6SFHC9</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TB002-500-03BE">
+      <description>Fixed Terminal Blocks screw type, 5.00 , horizontal, 3 poles, CUI Blue, slotted screw, PCB mount</description>
+      <docs>https://www.cuidevices.com/product/resource/tb002-500.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TB002-500-03BE</field>
+        <field name="Footprint">SHDR3W100P0X500_1X3_1500X760X1000P</field>
+        <field name="Datasheet">https://www.cuidevices.com/product/resource/tb002-500.pdf</field>
+        <field name="Description">Fixed Terminal Blocks screw type, 5.00 , horizontal, 3 poles, CUI Blue, slotted screw, PCB mount</field>
+        <field name="Height">10</field>
+        <field name="Mouser Part Number">490-TB002-500-03BE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-03BE?qs=vLWxofP3U2xKqUO2wcZ40g%3D%3D</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">TB002-500-03BE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TLP3555A_TP1,F">
+      <description>MOSFET Output Optocouplers Photorelay 3A 60V 2500Vrms 250pF 3mA</description>
+      <docs>https://toshiba.semicon-storage.com/info/docget.jsp?did=61844&amp;prodName=TLP3555A</docs>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">TLP3555A_TP1,F</field>
+        <field name="Footprint">DIP762W60P254L458H485Q4N</field>
+        <field name="Datasheet">https://toshiba.semicon-storage.com/info/docget.jsp?did=61844&amp;prodName=TLP3555A</field>
+        <field name="Description">MOSFET Output Optocouplers Photorelay 3A 60V 2500Vrms 250pF 3mA</field>
+        <field name="Height">4.85</field>
+        <field name="Mouser Part Number">757-TLP3555A(TP1,F</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Toshiba/TLP3555ATP1F?qs=%252BEew9%252B0nqrDD2Q6lmKWnyg%3D%3D</field>
+        <field name="Manufacturer_Name">Toshiba</field>
+        <field name="Manufacturer_Part_Number">TLP3555A(TP1,F</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/SamacSys_PCB_Library/Kicad/SamacSys_Parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="IC2" pin="4"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="C1" pin="1"/>
+      <node ref="IC2" pin="8"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="2" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="3" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="J1" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="K1" pin="2"/>
+      <node ref="K2" pin="3"/>
+      <node ref="K2" pin="2"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C1-Pad2)">
+      <node ref="IC1" pin="2"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="6" name="PRECHARGE_relay_exit">
+      <node ref="R3" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="7" name="AIR_coil">
+      <node ref="J3" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="K1" pin="4"/>
+    </net>
+    <net code="8" name="PRECHARGE_coil">
+      <node ref="J3" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="K2" pin="4"/>
+    </net>
+    <net code="9" name="AIR_coupler">
+      <node ref="IC1" pin="3"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(C2-Pad2)">
+      <node ref="R9" pin="1"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="IC2" pin="6"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="11" name="PRECHARGE_coupler">
+      <node ref="R8" pin="2"/>
+      <node ref="IC2" pin="3"/>
+    </net>
+    <net code="12" name="Net-(IC2-Pad7)">
+      <node ref="IC2" pin="7"/>
+    </net>
+    <net code="13" name="Net-(IC2-Pad5)">
+      <node ref="IC2" pin="5"/>
+    </net>
+    <net code="14" name="C_inverter">
+      <node ref="J2" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="15" name="Net-(K2-Pad1)">
+      <node ref="K2" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="16" name="Net-(K1-Pad1)">
+      <node ref="K1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="17" name="Net-(R3-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="18" name="+VDC">
+      <node ref="K1" pin="3"/>
+      <node ref="R10" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="19" name="Net-(D1-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+  </nets>
+</export>
